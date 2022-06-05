@@ -1,3 +1,7 @@
+## Requêtes
+
+Les requêtes sont présentes dans le dossier "Pages"
+
 ## Collection Favory
 
 Afin de gérer l'enregistrement des favoris, nous avons créer une nouvelle collection.
