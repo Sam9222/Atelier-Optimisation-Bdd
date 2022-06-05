@@ -18,7 +18,7 @@ Celle-ci se compose des champs suivants :
 Pour l'ajout de commentaire nous avons décidé d'utiliser les 4 champs de la table en paramètre (inscrit dans le body) de notre endpoint.
 Nous avons cherché à n'utiliser que l'id de l'utilateur pour ensuite récupérer son nom et son mail directement dans la collection users mais n'avons pas réussi à filtrer les champs récupérés dans la requête avec find ou findOne malgré de très nombreuses recherches.
 
-La fonction find permet normalement d'exclure des champs d'une collection de la manière suivante : collection.find({},_{champ: 1}_) 
+La fonction find permet normalement d'exclure des champs d'une collection de la manière suivante : collection.find({},__{champ: 1}__) 
 Quand un champ est à l'état un il est affiché, quand il est à 0 il est exclu.
 
 ## Endpoints
