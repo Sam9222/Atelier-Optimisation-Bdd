@@ -25,3 +25,7 @@ Quand un champ est à l'état un il est affiché, quand il est à 0 il est exclu
 
 Nous avons décidé d'utiliser plusieurs endpoints, 1 par requête. Il est cependant possible (préférable) d'utiliser un seul endpoint et de faire des liens afin d'optimiser les requêtes.
 Après avoir chercher nous sommes restés sur le choix de plusieurs endpoints car les liens mis en place ne fonctionnaient pas.
+
+## Design
+
+Nous avons inséré le thème feeling-blue dans le fichier index.jsx afin de personnaliser le thèmes d'interface utilisateur Swagger
